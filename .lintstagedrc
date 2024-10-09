@@ -1,0 +1,10 @@
+{
+  "src/**/*.ts": [
+    "npx pretty-quick --staged",
+    "npm run lint"
+  ],
+  "test/**/*.ts": [
+    "npx pretty-quick --staged",
+    "npm run lint"
+  ]
+}
